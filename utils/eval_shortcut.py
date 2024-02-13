@@ -51,7 +51,7 @@ class Cut():
         wb_util.log(obj)
         print(obj)
         wb_util.init(args)
-        my_git.commit_v2(args)
+        # my_git.commit_v2(args)
 
         if modelSelector.should_stop(indicator, args.early_stop):
             print("early_stop")

@@ -6,8 +6,10 @@ jupyters/
 results/
 configs/wb*.json
 说明.txt
+说明.sh
 停泊/
 tmp/
+data/
 outputs
 tmp.py
 pp.sh

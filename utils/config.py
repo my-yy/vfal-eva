@@ -18,7 +18,7 @@ def load_face_emb_dict():
 def load_voice_emb_dict():
     voice_emb_dict = pickle_util.read_pickle(path_util.look_up("./dataset/voice_input.pkl"))
     vec_util.dict2unit_dict_inplace(voice_emb_dict)
-    name2voice_id = pickle_util.read_pickle("/home/my/projects/206_生成对方模态/dataset/info/name2voice_id.pkl")
+    name2voice_id = pickle_util.read_pickle("./dataset/info/name2voice_id.pkl")
     voiceid2name = {}
     for k, v in name2voice_id.items():
         voiceid2name[v] = k
